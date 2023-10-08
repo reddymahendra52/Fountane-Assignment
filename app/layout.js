@@ -9,6 +9,8 @@ export const metadata = {
   description: "The next generation of defi governance",
 };
 
+export const dynamic = "force-dynamic";
+
 export default function RootLayout({ children }) {
   return (
     <ReactQueryProvider>

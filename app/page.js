@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-8">
       <nav className=" px-5 py-5 border-0 border-t-1 rounded-full flex w-full justify-between bg-black items-center">
         <div>
-          <Image src={jetstream} width={119} height={25} />
+          <Image src={jetstream} width={119} height={25} alt="logo" />
         </div>
 
         <ul className="flex gap-x-10">
